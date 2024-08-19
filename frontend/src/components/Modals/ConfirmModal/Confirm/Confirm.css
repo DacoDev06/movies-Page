@@ -1,0 +1,84 @@
+.Confirm{
+    width: 400px;
+    height: 330px;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border-radius: 20px;
+    color: black;
+}
+
+.confirm-text{
+    font-size: 28px;
+    margin: 10px;
+}
+.confirm-text-delete{
+    color: red;
+}
+.confirm-text-modifying{
+    font-weight: bold;
+    color:rgb(207, 207, 61);
+}
+.confirm-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+.confirm-titulo{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+.confirm-año{
+    margin: 0;
+}
+.mini-img{
+    height: 140px;
+    width: 100px;
+}
+.confirm-conainter-buttons{
+    display: flex;
+    height:55px;
+    margin: 10px;
+    gap: 80px;
+}
+.confirm-buttons{
+    height: 100%;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.confirm-button-no{
+    background-color: rgb(230, 3, 3);
+}
+.confirm-button-no:hover{
+    background-color: rgb(200, 2, 2);
+}
+.confirm-button-no:active{
+    background-color: rgb(175, 1, 1);
+}
+
+.confirm-button-si{
+    background-color: rgb(7, 180, 7);
+}
+.confirm-button-si:hover{
+    background-color: rgb(6, 150, 6);
+}
+.confirm-button-si:active{
+    background-color: rgb(5, 131, 5);
+}
+.confirm-button-si-modifying{
+    background-color:rgb(207, 207, 61);
+}
+.confirm-button-si-modifying:hover{
+    background-color:rgb(202, 202, 59);
+}
+.confirm-button-si-modifying:active{
+    background-color:rgb(189, 189, 52);
+}

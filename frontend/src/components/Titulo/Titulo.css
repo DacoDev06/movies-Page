@@ -1,0 +1,14 @@
+.Titulo{
+    display: grid;
+    place-content: center;
+
+    font-size:48px;
+    background-image: url("https://www.bancodelpacifico.com/BancoPacifico/media/Que-necesitas/fondos/v2banner-categorias.jpg");
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color:white;
+}

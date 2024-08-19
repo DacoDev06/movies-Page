@@ -1,0 +1,14 @@
+.MenuButton-modal{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-top: 1px solid #a5a5a5;
+    border-bottom: 1px solid #a5a5a5;
+    cursor: pointer;
+    font-size: 16px;
+}
+.MenuButton-modal:hover{
+    background-color: #cfcece;
+    font-size: 18px;
+    transition: font-size .4s ease;
+}

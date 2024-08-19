@@ -1,0 +1,143 @@
+.modify-title{
+    position: absolute;
+    top: 10px;
+    width: 300px;
+    left: calc(50% - 114px);
+    margin: 0;
+    font-size: 26px;
+}
+.info-modifying-container{
+    height: 680px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 8px;
+
+}
+.main-info-modifying{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: auto;
+
+}
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+}
+.main-info-title-modifying{
+    border-radius: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow:auto;
+    height: auto; /* Altura mínima */
+    max-height: 58px; /* Altura mínima */
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main-info-title-modifying:focus{
+    border: 1 solid #a5a5a5;
+    box-shadow: 1px 1px 14px 4px #a5a5a5;
+    outline: none;
+    z-index: 1;
+}
+.main-info-año-modifying{
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+}
+.main-info-año-modifying:focus{
+    box-shadow: 1px 1px 14px 4px #a5a5a5;
+    outline: none;
+}
+
+
+.url-modify-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+}
+.url-modify-text{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.url-modify-input{
+    height: 22px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid #a5a5a5;
+    padding-left: 8px;
+}
+.url-modify-input:focus{
+    border: 1 solid #a5a5a5;
+    box-shadow: 1px 1px 14px 4px #a5a5a5;
+    outline: none;
+    z-index: 1;
+}
+.url-modify-input::placeholder{
+    text-align: center;
+    color: #c0c0c0;
+}
+
+
+
+.description-modifying-container{
+    width: 90%;
+    height: 150px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-self: center;
+}
+
+.main-description-modify{
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 12px;
+    height: 136px;
+    width: 320px;
+}
+.main-description-modify:focus{
+    box-shadow: 1px 1px 14px 4px #a5a5a5;
+    outline: none;
+}
+.description-buttons{
+    justify-content: center;
+}
+.description-button{
+    width: 100px;
+    height: 100%;
+    padding: 0;
+    font-size: 18px;
+    border:none;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+}
+.cancel-button{
+    background-color: red;
+}
+.cancel-button:active{
+    background-color: rgb(175, 1, 1);
+}
+.modificar-button{
+    background-color: rgb(195, 209, 3);
+}
+.modificar-button:active{
+    background-color: rgb(159, 170, 5);
+}

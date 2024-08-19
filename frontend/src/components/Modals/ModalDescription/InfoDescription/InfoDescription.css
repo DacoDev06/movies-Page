@@ -1,0 +1,76 @@
+.info-description-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-info{
+    min-height: 70px;
+    max-width: fit-content;
+    display: grid;
+    place-content: center;
+}
+.main-info-title{
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.main-info-año{
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.img-portada{
+    height: 280px;
+    width: 200px;
+}
+.description-container{
+    width: 90%;
+    height: fit-content;
+    min-height: 150px;
+    border-radius: 5px;
+    display: flex;
+    align-items: start;
+}
+
+.main-description{
+    margin: 0;
+    padding: 8px;
+    font-size: 12px;
+}
+.description-buttons{
+    display: flex;
+    height: 54px;
+    gap: 14px;
+}
+.description-button{
+    width: 100px;
+    height: 100%;
+    padding: 0;
+    font-size: 18px;
+    border:none;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+}
+.description-modify-button{
+    background-color: rgb(195, 192, 3);
+}
+.description-modify-button:hover{
+    background-color: rgb(195, 171, 2);
+}
+.description-modify-button:active{
+    background-color: rgb(195, 150, 1);
+}
+.description-delete-button{
+    background-color: rgb(230, 60, 3);
+}
+.description-delete-button:hover{
+    background-color: rgb(200, 30, 2);
+}
+
+.description-delete-button:active{
+    background-color: rgb(175, 1, 1);
+}
