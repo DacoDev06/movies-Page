@@ -9,13 +9,13 @@ class MovieService():
     def get_movies(self):
         result = self.db.query(MovieModel).all()
         return result
+    
     def get_movie(self,id):
         result = self.db.query(MovieModel).filter(MovieModel.id == id).first()
         if not result:
             return JSONResponse(status_code=404,content={"message":"No se encontro la pelicula"})
-        return 
+        return result
         
-    
     def post_movie(self,movie:Movie):
         newMovie = MovieModel(**movie.model_dump())
         self.db.add(newMovie)
