@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
-from modelo.config.database import Base,engine
-from controlador.routers.movies import movie_router
+from modelo.database import Base,engine
+from controlador.ControladorRouter import movie_router
 
 app = FastAPI()
 
