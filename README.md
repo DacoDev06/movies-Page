@@ -5,8 +5,12 @@ La funcionalidad principal de la aplicación es manejar un CRUD (Crear, Leer, Ac
 ##INICAR
 Si deseas descargar el proyecto y correrlo de manera local.
 ````sh
-source backend/venv/Scripts/activate
-cd frontend
+cd backend
+python -m venv .venv
+pip install -r requirements.txt
+cd ..frontend
+npm install
+source backend/.venv/Scripts/activate
 npm start
 ```
 # movies-Page
